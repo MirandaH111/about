@@ -1,0 +1,117 @@
+
+/**MAIN*/
+
+body{
+	vertical-align: middle;
+	background-color:#fff;
+	color:#000;
+	font-family: 'Poltawski Nowy', serif;
+}
+
+
+h1{
+	font-size: 86px;
+	background-color: #eabfff;
+}
+
+a{
+	color:blue;
+	
+}
+
+/*Aligning Heading and paragraphs to center*/
+
+p,h1, h2, h3{
+	text-align:center;
+
+}
+
+h3{
+	font-size: 100px;
+	margin-top:250px;
+}
+
+hr{
+	height: 30px;
+	background-color:white;
+}
+
+/*HEADER */
+.paragraph_header p {
+	font-size: 20px;
+	font-style: bold;
+}
+
+/*UNORDERED LIST*/
+
+ul {
+  display: inline-block;
+  margin-left: 50%;
+  transform: translateX(-50%); 
+}
+
+
+/*TO SIZE AND FLOAT IMAGE AROUND TEXT*/
+.imgcontainer img {
+	display:inline-block;
+    width: 150px;
+    height: 150px;
+    
+    float: left;   
+margin: 30px 12px 3px 4px;   
+border: 2px solid blue;  
+}   
+}
+
+.imgcontainer p{
+	text-align:right;
+
+	margin-bottom:25px;
+	margin-top:-80px;
+	margin-right:10%;
+}
+
+.imgcontainer{
+	display:inline-block;;
+    width:100%;
+    margin:30px auto;
+    
+    
+}
+
+.imgcontainer_portfolio img {
+	
+    width: 350px;
+    height: 350px;
+    
+   
+}
+
+
+.imgcontainer_portfolio{
+	display:inline-block;;
+    width:100%;
+    margin:30px auto;
+    
+    
+}
+
+/* TABLE SECTION */
+.tablecontainer {
+    display:inline-block;
+    width:100%;
+    margin:20px auto;
+    background-color: #eabfff;
+}
+
+table, th, td {
+	text-align:center;
+  	border:1px solid #000;
+  	border-collapse: collapse;
+}
+
+table{
+	margin-right: auto;
+	margin-left:auto;
+	width:50%;
+}
